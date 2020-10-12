@@ -25,7 +25,7 @@ export default {
         $view(){
 
         },
-        onHandle {
+        onHandle(){
 
         }
     }
