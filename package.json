@@ -1,0 +1,35 @@
+{
+  "name": "vue-track",
+  "version": "1.0.0",
+  "description": "add vue component extra created and methods event",
+  "main": "dist/main.cjs.js",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wut1/vue-track.git"
+  },
+  "author": "chex111",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wut1/vue-track/issues"
+  },
+  "homepage": "https://github.com/wut1/vue-track#readme",
+  "dependencies": {
+    "@rollup/plugin-commonjs": "^15.1.0",
+    "rollup": "^2.29.0",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-uglify": "^6.0.4"
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "@rollup/plugin-babel": "^5.2.1",
+    "@rollup/plugin-node-resolve": "^9.0.0"
+  }
+}
