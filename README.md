@@ -1,4 +1,4 @@
-# vue-track
+# vue-track-ve
 add vue component extra created hook and methods event
 
 vue组件添加额外的created 钩子 和额外的方法 以用来单独的处理页面访问和点击事件
@@ -7,13 +7,13 @@ vue组件添加额外的created 钩子 和额外的方法 以用来单独的处�
 
 ### 使用方法 ###
 ```
-npm i vue-track
+npm i vue-track-ve -s
 ```
 引入
 ```
 import Vue from 'vue'
-import track from 'vue-track'
-Vue.use(track)
+import VueTrackVe from 'vue-track-ve'
+Vue.use(VueTrackVe)
 ```
 
 

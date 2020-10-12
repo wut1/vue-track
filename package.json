@@ -1,6 +1,6 @@
 {
-  "name": "vue-track",
-  "version": "1.0.0",
+  "name": "vue-track-ve",
+  "version": "1.0.1",
   "description": "add vue component extra created and methods event",
   "main": "dist/main.cjs.js",
   "scripts": {
@@ -31,5 +31,6 @@
     "@babel/preset-env": "^7.11.5",
     "@rollup/plugin-babel": "^5.2.1",
     "@rollup/plugin-node-resolve": "^9.0.0"
-  }
+  },
+  "keywords":["vue track","vue"]
 }
