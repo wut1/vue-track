@@ -31,6 +31,23 @@ export default {
     }
 }
 ```
+
+ts
+
+```
+@Component({
+    track:{ 
+      $view(){
+        
+      },
+      onHandle(){
+        
+      }
+    }
+})
+```
+
+
 说明:
 track 对象 内$view 和 created 钩子相同
 
