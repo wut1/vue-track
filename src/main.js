@@ -3,9 +3,10 @@ export default {
         Vue.mixin({
             beforeCreate() {
                 let options = this.$options
-                const track = options.track
+                const track = options.$track
                 if(track) {
-                    const {$view,...moths} = track
+                    const trackOptions = typeof track === 'function' ? track.call(this) : track
+                    const {$view,...moths} = trackOptions
                     const vm = this
                     vm.$on('hook:created',()=>{
                         if($view) {

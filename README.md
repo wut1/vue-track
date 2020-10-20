@@ -21,7 +21,7 @@ Vue.use(VueTrackVe)
 组件内
 ```
 export default {
-    track:{
+    $track:{
         $view(){
 
         },
@@ -34,17 +34,26 @@ export default {
 
 ts
 
+main.ts 
+
 ```
-@Component({
-    track:{ 
-      $view(){
+import { Component } from 'vue-property-decorator';
+
+Component.registerHooks(['$track'])
+
+```
+component
+```
+$track(){
+      return {
+        $view(){
+          
+        },
+        onHandle(){
         
-      },
-      onHandle(){
-        
+        }
       }
     }
-})
 ```
 
 

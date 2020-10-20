@@ -1,10 +1,11 @@
 import Vue from 'vue'
 
 declare module 'vue/types/options' {
+    type trackObj = {
+        $view: ()=> never,
+        [x:string] :()=> never
+    }
     interface ComponentOptions<V extends Vue> {
-        track?: { 
-            $view?:any,
-            [x:string]: any
-        }
+        $track?: ()=>trackObj | trackObj
     }
 }
