@@ -1,6 +1,6 @@
 {
   "name": "vue-track-ve",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "add vue component extra created and methods event",
   "main": "dist/main.cjs.js",
   "typings": "types/index.d.ts",
